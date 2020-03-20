@@ -9,14 +9,12 @@ ymaps.ready(function () {
         }),
         /**
          * Создадим кластеризатор, вызвав функцию-конструктор.
-         * Список всех опций доступен в документации.
-         * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Clusterer.xml#constructor-summary
+         * Список всех опций доступен в документации
          */
 		clusterer = new ymaps.Clusterer({
 		   /**
              * Через кластеризатор можно указать только стили кластеров,
-             * стили для меток нужно назначать каждой метке отдельно.
-             * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/option.presetStorage.xml
+             * стили для меток нужно назначать каждой метке отдельно
              */
             preset: 'islands#invertedDarkBlueClusterIcons',
             /**
@@ -24,8 +22,7 @@ ymaps.ready(function () {
              */
             groupByCoordinates: false,
             /**
-             * Опции кластеров указываем в кластеризаторе с префиксом "cluster".
-             * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/ClusterPlacemark.xml
+             * Опции кластеров указываем в кластеризаторе с префиксом "cluster"
              */
             clusterDisableClickZoom: true,
             clusterHideIconOnBalloonOpen: false,
@@ -37,8 +34,7 @@ ymaps.ready(function () {
          * Поле balloonContentBody - источник данных для контента балуна.
          * Оба поля поддерживают HTML-разметку.
          * Список полей данных, которые используют стандартные макеты содержимого иконки метки
-         * и балуна геообъектов, можно посмотреть в документации.
-         * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/GeoObject.xml
+         * и балуна геообъектов, можно посмотреть в документации
          */
 		getPointData = function (index) {			
 			/** Евдоким Лукьянович Васенко */
@@ -127,7 +123,6 @@ ymaps.ready(function () {
         /**
          * Функция возвращает объект, содержащий опции метки.
          * Все опции, которые поддерживают геообъекты, можно посмотреть в документации.
-         * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/GeoObject.xml
          */
             getPointOptions = function () {
             return {
@@ -152,8 +147,7 @@ ymaps.ready(function () {
 		],
         geoObjects = [];
     /**
-     * Данные передаются вторым параметром в конструктор метки, опции - третьим.
-     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Placemark.xml#constructor-summary
+     * Данные передаются вторым параметром в конструктор метки, опции - третьим
      */
     for(var i = 0, len = points.length; i < len; i++) {
         geoObjects[i] = new ymaps.Placemark(points[i], getPointData(i), getPointOptions());
@@ -168,8 +162,7 @@ ymaps.ready(function () {
     });
 
     /**
-     * В кластеризатор можно добавить javascript-массив меток (не геоколлекцию) или одну метку.
-     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Clusterer.xml#add
+     * В кластеризатор можно добавить javascript-массив меток (не геоколлекцию) или одну метку
      */
     clusterer.add(geoObjects);
     myMap.geoObjects.add(clusterer);
