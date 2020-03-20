@@ -1,0 +1,93 @@
+﻿@font-face {
+	font-family: 'GOSTtypeA';
+	src:
+		local('GOSTtypeA'),
+		url('http://kultura174.ru/Content/100letrevolyucii/font/YesevaOne-Regular.ttf');
+}
+.pager{display:none !important;}
+.preloader {width:150px; height:70px; position:absolute; top:800px !important; display:none; /* background:#FFFFFF; color:#ca7701; font-size:12px; font-weight:bold;*/ text-align:center; opacity:0.8;}
+.btnBack{ margin:0 auto; width:240px; height:30px; cursor:pointer; margin-top:15px; border:0px solid red; margin: 0 auto; margin-top:15px;}
+
+
+.1rev_menuHeader {width:690px; height:200px; background:url('http://kultura174.ru/Storage/Image/HtmlPageImageItem/Image/src/607/Header_690x200.jpg')no-repeat; cursor:pointer;}
+.rev_menuFooter {width:690px; height:100px; background:url('http://kultura174.ru/Storage/Image/HtmlPageImageItem/Image/src/608/footer_690x100.jpg')no-repeat;margin-bottom: 15px;}
+.rev_menuLine 	{width:690px; height:56px; background:url('http://kultura174.ru/Content/100letrevolyucii/media/1.png')no-repeat;}
+.rev_Content 	{width:690px; margin:0 auto;}
+.rev_mainMenu 	{width:690px;}
+.rev_table_block	{width:690px; display:table; margin-top:15px; /*background:#EBECEC; фон */}
+.rev_table_block_td {float:left; width:220px; cursor:pointer;}
+.rev_BlockIMG	{width:220px; height:220px;}
+.rev_BlockTitle 	{color:#2E2E2E/* #4D2200 */; font-family:GOSTtypeA; font-size:20px; text-align:center; text-transform: uppercase; margin-top:15px;}
+.rev_BlockTitle2 {color:#D9DADA/*#A85C2A*/; font-family:GOSTtypeA; font-size:16px; text-align:center; text-transform: uppercase;}
+.rev_mainMenuTbl {margin-left:-1px; border-spacing: 0px 15px; }
+.rev_mainMenuTbl td {vertical-align:top;}
+.rev_mainMenuTbl .rev_BlockLink {text-decoration:none;}
+
+
+.item	{margin-top:15px;}
+.linkDownloadKalendar {vertical-align: -1065px; margin-left: 282px; text-decoration:none !important; color:#4D2200 !important; text-transform: uppercase;}
+.hrLine{}
+.line { margin:0 auto;}
+.pubDate {display:none !important;}
+
+
+
+#rev_Content .item	{border:0px solid red; width:690px; float:left;}
+#rev_Content .img-wrp	{width:220px; height:220px; border:1px solid #cfcac6;}
+#rev_Content .item-title   {padding:0px 0px 0px 2px; color:#4D2200; font-family:GOSTtypeA; font-size:20px; text-align:center; text-transform: uppercase; margin-top:15px;}
+#rev_Content .item-title a {color:#8A0808 !important; text-decoration:none;}
+#rev_Content .item-date {display: none !important;}
+#rev_Content .item-descr{padding:0px 0px 5px 1px; color:#A85C2A; font-family:GOSTtypeA; font-size:16px; text-align:center; text-transform: uppercase;}
+#rev_Content #more {display:none;}
+
+#additionalUnit img {cursor:pointer;}
+
+.newsImg {display:none;}
+#img_wrp {background-position:0px 0px;}
+
+
+
+/* map */
+.bct { text-align:justify;text-indent: 20px; }
+.bct img {margin: 0px 10px 0px 10px; border:1px solid #000; width:100px;}
+.CaptionTitle {}
+/*/map */
+
+/* literatura */
+.BlockIMG_section2 {background: url('http://kultura174.ru/Storage/Image/HtmlPageImageItem/Image/src/645/fon.png')no-repeat; border:0px solid #000; width:220px; height:220px; margin:5px; float:left; }
+
+#BlockIMG_section0 {background: url('/Content/100letrevolyucii/media/literatura/2_1.jpg')no-repeat; cursor:pointer;}
+#BlockIMG_section2 {background: url('/Content/100letrevolyucii/media/literatura/2_2.jpg')no-repeat; cursor:pointer;}
+
+
+/* /*******************/
+
+.partners {margin:0 auto;width:700px;}
+.partners .partner1, .partner2, .partner3, .partner4, .partner5, .partner6, .partner7, .partner8 {
+	border:1px solid #ccc;
+	padding-top:20px;
+	width:160px;
+	height:100px;
+	float:left;
+	margin:20px 10px 0px 0px;
+	cursor: pointer;
+}
+.partners .partner1 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/1.png') 0px no-repeat; filter: grayscale(100%);}
+.partners .partner2 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/2.png') 0px no-repeat; filter: grayscale(100%);}
+.partners .partner3 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/3.png') 0px no-repeat; filter: grayscale(100%);}
+.partners .partner4 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/4.png') 0px no-repeat; filter: grayscale(100%);}
+.partners .partner5 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/5.png') 0px no-repeat; filter: grayscale(100%);}
+.partners .partner6 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/6.png') 0px no-repeat; filter: grayscale(100%);}
+.partners .partner7 { background: url('http://kultura174.ru/Content/100letrevolyucii/partners/7.png') 0px no-repeat; filter: grayscale(100%);}
+
+.partners .partner1:hover {filter: grayscale(0%);}
+.partners .partner2:hover {filter: grayscale(0%);}
+.partners .partner3:hover {filter: grayscale(0%);}
+.partners .partner4:hover {filter: grayscale(0%);}
+.partners .partner5:hover {filter: grayscale(0%);}
+.partners .partner6:hover {filter: grayscale(0%);}
+.partners .partner7:hover {filter: grayscale(0%);}
+
+
+.avipromo { background: url('/Content/100letrevolyucii/media/promo_100_let_revolyucii.gif') 0px no-repeat; width:690px; height:195px; margin:0 auto;}
+.avipromo a {display:block; width:690px; height:195px; text-decoration:none;}
